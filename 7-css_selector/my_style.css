@@ -1,0 +1,96 @@
+/* 
+* {
+    color: pink;
+    background-color: cyan;
+} 
+*/
+
+body {
+    background-color: #f1faee;
+}
+
+h1, h2 {
+    color: darkslateblue;
+}
+h1, h2 {
+    color: yellow;
+}
+span {
+    color: #457b9d;
+}
+button {
+    font-size: 30px;
+    background-color: #a8dadc;
+}
+input[type="password"] {
+    color: greenyellow;
+}
+a[href*="google"] {
+    color: magenta;
+}
+
+.post button:hover {
+    background-color: #e63946;
+    color: #f1faee;
+}
+.post a:hover {
+    text-decoration: underline;
+}
+
+.post button:active {
+    background-color: #02c39a;
+}
+/* .post:nth-of-type(3n) {
+    background-color: #dfe8dc;
+} */
+
+/* section.post {
+    background-color: purple;
+} */
+/* section[class="post"] {
+    background-color: purple;
+} */
+
+button:hover {
+    background-color: olive;
+    font-size: 10px;
+}
+/* button {
+    background-color: magenta !important;
+} */
+
+footer a {
+    color: #e63946;
+}
+h2 + button {
+    font-size: 20px;
+    background-color: magenta;
+}
+footer > a {
+    color: #457b9d;
+}
+
+h2::first-letter {
+    font-size: 50px;
+}
+p::first-line {
+    color: purple;
+}
+p::selection {
+    background-color: #fcbf49;
+}
+
+.tag {
+    background-color: #e63946;
+    color: #f1faee;
+}
+.post a {
+    color: #457b9d;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+#signup {
+    background-color: #1d3557;
+    color: #f1faee
+}

@@ -1,0 +1,31 @@
+h1 {
+    text-align: center;
+    width: 50%;
+    font-weight: 900;
+    text-decoration: underline;
+    letter-spacing: 15px;
+    font-size: 100px;
+    font-family: Verdana;
+}
+h2 {
+    color: #5FCFFC;
+    background-color: rgb(89, 151, 0);
+}
+
+body {
+    background-color: #c5e;
+}
+
+button {
+    color: magenta;
+    background-color: cyan;
+}
+
+p {
+    color: olive;
+    background: orange;
+    line-height: 2;
+}
+a {
+    text-decoration: none;
+}
